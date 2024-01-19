@@ -53,6 +53,11 @@ body {
   30% { opacity: 0; }
 }
 
+.instructions {
+  left: 470px;
+  top: 10px;
+  position: absolute;
+}
 
 .control {
   left: 470px;
