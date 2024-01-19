@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 boilerplate – all you really need…</title>
+	<link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  </head>
+    <body id="home">
+      <div id="wall" class="wall">
+  <div id="square1" class="square"></div>
+</div>
+        <div id="food" class="food"></div>
+				<div id="specialFood" class="specialFood"></div>
+
+<br>
+Score: <input id="score" type='text' style="font-size:15px; border: 1px solid" disabled value='0'/>
+<div id="gameOver">
+<h2>Game Over</h2>
+<!-- <input type='button' onclick='location.reload()' style="font-size:12px" value="Reset"/> -->
+</div>
+<select name="level" class="control" id="level">
+  <option value="0">Easy</option>
+  <option value="1" selected>Medium</option>
+  <option value="2">Hard</option>
+  <option value="3">Nightmare</option>
+</select>
+<input type='button' class="startButton" onclick='start()' style="font-size:15px" value="Start"/>
+<div class="wrapper">
+<div class="pie spinner"></div>
+<div class="pie filler"></div>
+<div class="mask"></div>
+</div>
+</body>
+  <script src="main.js"></script>
+</html>
