@@ -34,6 +34,7 @@ function init(){
       'top': '40px',
   });
   $('#score').val(0);
+  $('#gameOver').hide();
   dir = 'right';
   isSelfBite = false;
   biteCounter=0;
