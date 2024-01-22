@@ -61,13 +61,13 @@ body {
 
 .control {
   left: 470px;
-  top: 60px;
+  top: 70px;
   position: absolute;
 }
 
 .startButton {
   left: 470px;
-  top: 90px;
+  top: 100px;
   position: absolute;
 }
 
@@ -77,7 +77,7 @@ body {
   margin: 40px auto;
   background: #eee;
   left: 500px;
-  top: 120px;
+  top: 130px;
   position: absolute;
   display: none;
 }
