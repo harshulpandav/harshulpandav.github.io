@@ -13,6 +13,30 @@ var isSpecialFoodPresent;
 var specialFoodTimerStart;
 var specialFoodTimerEnd;
 
+            window.onload = function() {
+
+                document.addEventListener('swiped-left', function(e) {
+                  alert(e.type);
+
+                });
+
+                document.addEventListener('swiped-right', function(e) {
+                  alert(e.type);
+
+                });
+
+                document.addEventListener('swiped-up', function(e) {
+                  alert(e.type);
+
+                });
+
+                document.addEventListener('swiped-down', function(e) {
+                  alert(e.type);
+
+                });
+
+            }
+
 
 function start(){
   init();
