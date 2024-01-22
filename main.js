@@ -13,30 +13,23 @@ var isSpecialFoodPresent;
 var specialFoodTimerStart;
 var specialFoodTimerEnd;
 
-            window.onload = function() {
+window.onload = function() {
+    document.addEventListener('swiped-left', function(e) {
+      dir = 'left';
+    });
 
-                document.addEventListener('swiped-left', function(e) {
-                  alert(e.type);
+    document.addEventListener('swiped-right', function(e) {
+      dir = 'right';
+    });
 
-                });
+    document.addEventListener('swiped-up', function(e) {
+      dir = 'up';
+    });
 
-                document.addEventListener('swiped-right', function(e) {
-                  alert(e.type);
-
-                });
-
-                document.addEventListener('swiped-up', function(e) {
-                  alert(e.type);
-
-                });
-
-                document.addEventListener('swiped-down', function(e) {
-                  alert(e.type);
-
-                });
-
-            }
-
+    document.addEventListener('swiped-down', function(e) {
+      dir = 'down';
+    });
+}
 
 function start(){
   init();
